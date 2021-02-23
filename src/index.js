@@ -5,7 +5,7 @@ import 'swagger-ui-themes/themes/3.x/theme-muted.css'
 import yaml from 'js-yaml'
 
 let serviceUrls = []
-let baseServicesUrl = 'https://6034c6011e1b32bc6218ac5c--vigilant-kepler-02cd3c.netlify.app/services/'
+let baseServicesUrl = 'services/'
 
 const allFiles = (ctx => {
   let keys = ctx.keys();
