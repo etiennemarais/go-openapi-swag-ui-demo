@@ -22,6 +22,14 @@ module.exports = {
         },
       },
       {
+        test: /_headers$/,
+        loader: 'file-loader',
+        options: {
+          publicPath: outputPath,
+          name: '[path][name]'
+        }
+      },
+      {
         test: /\.css$/i,
         use: [MiniCssExtractPlugin.loader, 'css-loader'],
       },
